@@ -2,7 +2,7 @@
 
 ==Intruduction==
 
-The open Data Expert (oDataXpt) is an interactive online tool set. it utilize the latest computing technologies, includes: Cloud Computing, Big Data, NoSQL, HTML 5, Java EE, JavaScript. 
+The open Data Expert (oDataXpt) is an interactive online tool set. it utilize the latest computing technologies, includes: Cloud Computing, Big Data, NoSQL, JavaEE, JavaScript HTML5 and CSS3.
 
 The tool is built on latest enterprise computing platform, the backend is Java Enterprise Edition, JSF and Richfaces.
 
