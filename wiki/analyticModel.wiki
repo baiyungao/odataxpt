@@ -12,7 +12,7 @@ Next step is to define indicator. An [indicator indicator] is an element to tell
 
 A [measurement measurement]  has a list of indicator, it clear tells the analytic engine how to collect and aggregate data from repository. 
 
-A  [series Series] represents a list of measurements by a giving time period. a series may have multiple children series. oDataXpt predefined 3 types of series, [fiscalYear Fiscal Year], [quarter Quarter] and [month Month], a Fiscal Year contains 12 Month series and 4 Quauter series. a series can contains one or more measurements, each measurement return 2 types of results, one is result between its own start time and end time, another is from its parent start time and its own end time, such as year to Month value, Year to Quarter value and Year to Day value etc.
+A  [series Series] represents a list of measurements by a giving time period. a series may have multiple children series. oDataXpt predefined 3 types of series, [fiscalYear Fiscal Year], [quarter Quarter] and [month Month], a Fiscal Year contains 12 Month series and 4 Quauter series. a series can contains one or more measurements, each measurement return 2 types of results, one is result between its own start time and end time, another is from its parent start time and its own end time, such as *Year to Month* value, *Year to Quarter* value and *Year to Day* value etc.
 
 
 
