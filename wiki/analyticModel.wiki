@@ -1,14 +1,21 @@
-#summary One-sentence summary of this page.
+#summary Elements and rules define analytic model in oDataXpt
 
 = Analytic Model=
 
 == Summary ==
+
+oDataXpt provides an innovative and creative way to model data analytic process. Its unique modeling philosophy is very intuitive to domain expert. It provide a most nature way to aggregate data. 
+
+The model starts from collections, fields. which are similar to tables and columns in relation database term.
+
+Next step is to define indicator. An [indicator indicator] is an element to tell Model engine how to access the fields.
+
 
 
 
 == Details ==
 
   * Field Metadata
-  * Indicator
+  * [indicator Indicator]
   * Measurement
   * Model
