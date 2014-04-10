@@ -12,7 +12,7 @@ parameter is define any processes during the data aggregation.
 eg. 
 This code block define an indicator to sum all travel days from data repository.
 
-Since there is now existing field of that. the DAYS_OF_TRIP is a computing field. the value is ( Date_Return-Date_Depart) + 1.
+Since there is now existing field of that. the DAYS_OF_TRIP is a computing field. the value is (Date_Return - Date_Depart) + 1.
 
 {{{
  Indicator ind = new Indicator(AggregationOperator.SUM , GsaConstants.IDT_DAYS_OF_TRIP,  GsaConstants.IDT_DAYS_OF_TRIP); 
