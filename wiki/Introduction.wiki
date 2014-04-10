@@ -22,7 +22,7 @@ oDataXpt is an enterprise tool set. it adopts N-tier application architecture an
 
 == Details ==
 
- * [Analytic Model] analyticModel
+ * [analyticModel Analytic Model] 
 
 Add your content here.  Format your content with:
   * Text in *bold* or _italic_
