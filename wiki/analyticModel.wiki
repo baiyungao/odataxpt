@@ -19,5 +19,9 @@ A [measurement measurement]  has a list of indicator, it clear tells the analyti
 
   * Field Metadata
   * [indicator Indicator]
-  * Measurement
-  * Model
+  * [measurement measurement]
+  * [series Series]
+    *[fiscalYear Fiscal Year]
+    *[quarter quarter]
+    *[month Month]
+  * [model Model]
