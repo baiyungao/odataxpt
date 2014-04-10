@@ -10,7 +10,7 @@ The model starts from collections, fields. which are similar to tables and colum
 
 Next step is to define indicator. An [indicator indicator] is an element to tell Model engine how to access the fields.
 
-A [measurement measurement]  has a list of indicator, it clear tell the analytic engine how to collect and aggregate the data from repository. 
+A [measurement measurement]  has a list of indicator, it clear tells the analytic engine how to collect and aggregate the data from repository. 
 
 
 
