@@ -4,13 +4,16 @@
 
 == Summary ==
 
-oDataXpt provides an innovative and creative way to model data analytic process. Its unique modeling philosophy is very intuitive to domain expert. It provide a most nature way to aggregate data. 
+oDataXpt provides an innovative and creative schema to model data analytic process. Its unique modeling philosophy is very intuitive to domain expert. 
 
 The model starts from collections, fields. which are similar to tables and columns in relation database term.
 
-Next step is to define indicator. An [indicator indicator] is an element to tell Model engine how to access the fields.
+Next step is to define indicator. An [indicator indicator] is an element to tell Model engine how to access data fields from repository.
 
-A [measurement measurement]  has a list of indicator, it clear tells the analytic engine how to collect and aggregate the data from repository. 
+A [measurement measurement]  has a list of indicator, it clear tells the analytic engine how to collect and aggregate data from repository. 
+
+A  [series Series] represents a list of measurements by a giving time period. a series may have multiple children series. oDataXpt predefined 3 types of series, [fiscalYear Fiscal Year], [quarter Quarter] and [month Month], a Fiscal Year contains 12 Month series and 4 Quauter series. a series can contains one or more measurements, each measurement return 2 types of results, one is result between its own start time and end time, another is from its parent start time and its own end time, such as year to Month value, Year to Quarter value and Year to Day value etc.
+
 
 
 
@@ -22,6 +25,6 @@ A [measurement measurement]  has a list of indicator, it clear tells the analyti
   * [measurement measurement]
   * [series Series]
     * [fiscalYear Fiscal Year]
-    * [quarter quarter]
+    * [quarter Quarter]
     * [month Month]
   * [model Model]
