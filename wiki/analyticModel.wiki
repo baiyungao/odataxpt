@@ -1,6 +1,6 @@
 #summary Elements and rules define analytic model in oDataXpt
 
-= Analytic Schema =
+= Analytic Model Schema =
 
 == Summary ==
 
