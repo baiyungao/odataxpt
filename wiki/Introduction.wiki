@@ -1,8 +1,22 @@
-# Introduction of the open Data Expert
 
-= Introduction =
 
-Add your content here.
+= open Data Expert=
+
+The open Data Expert (oDataXpt) is an interactive online tool set. it utilize the latest computing technologies, includes: Cloud Computing, Big Data, NoSQL, HTML 5, Java EE, JavaScript. 
+
+The tool is built on latest enterprise computing platform, the backend is Java Enterprise Edition, JSF and Richfaces.
+
+
+oDataXpt is an enterprise tool set. it adopts N-tier application architecture.
+
+* Data repository: oDataXpt uses mongoDB as default data repository,  The data repository is mongoDB, which is a popular NoSQL database implementation, it will provide great extensibility and scalability to import any data set from other federal agencies, also it can adopt any data schema change and diversities. oDataXpt can connect any existing rational database, such as Oracle, DB2, Ms SQL Server and MySQL etc.
+
+* Data analytic model repository: oDataXpt provides a comprehensive 
+
+
+
+
+to allow business/organization to import their data set, define data model ( including goal, key index, measurement, and baseline). It is opensource project published on google code (https://code.google.com/p/data-smart/), under Apache License 2.0.
 
 
 = Details =
