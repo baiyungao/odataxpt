@@ -1,0 +1,35 @@
+# Indicator #
+
+An indicator define how to access a field in a collection.
+
+it is defined by Indicator Label, Aggregation Operator, Field names, and parameter.
+
+aggregation operators: SUM, AVG, MIN, MAX, COUNT.
+parameter is define any processes during the data aggregation.
+
+eg.
+This code block define an indicator to sum all travel days from data repository.
+
+Since there is now existing field of that. the DAYS\_OF\_TRIP is a computing field.
+
+```
+ Indicator ind = new Indicator(AggregationOperator.SUM , GsaConstants.IDT_DAYS_OF_TRIP,  GsaConstants.IDT_DAYS_OF_TRIP); 
+		  
+			String[] timeDiff = new String[2]; 
+			timeDiff[0] =  "$Date_Return";
+			timeDiff[1] = "$Date_Depart";
+			DBObject time = new BasicDBObject("$subtract",timeDiff );
+			
+			Object[] dayPar = new Object[2];
+			dayPar[0] = time;
+			dayPar[1] = 24*60*60*1000;
+			BasicDBObject dayDiff = new BasicDBObject("$divide",dayPar );
+			
+			Object[] dayOff = new Object[2];
+			dayOff[0] = dayDiff;
+			dayOff[1] = 1;
+			
+			BasicDBObject projectParameter = new BasicDBObject("$add",dayOff);
+		  //"{$add: [ { $divide: [ { $subtract: [ \"$Date_Return\", \"$Date_Depart\" ] }, 86400000 ] }, 1 ] }"
+		  ind.setParameter(projectParameter);
+```

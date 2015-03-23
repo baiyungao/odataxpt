@@ -1,0 +1,1 @@
+The open Data Expert (oDataXpt)  Tool is an interactive online tool to allow business/organization to import their data set, define data model ( including goal, key index, measurement, and baseline).

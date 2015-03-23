@@ -1,0 +1,11 @@
+# Measurement #
+
+A measurement has a Map to hold indicators.
+
+**match field**: provide a data repository filter fields.
+
+**group by field**: define how to aggregate the data records.
+
+**sort fields**: define how to sort the result.
+
+**limits**: define the limits for the result.
